@@ -47,30 +47,30 @@ Ferroptosis gene reference:
  
   GEO Datasets (MI x3, HF x3)
           |
-          v
+          
   Data Preprocessing & Normalization
           |
-          v
+          
   Differential Gene Expression Analysis
   (t-test, log2FC > 0.05, p-value < 0.05)
           |
-          v
+          
   Ferroptosis Gene Overlay (FerrDb)
           |
           |---- MI: Ferroptosis DEGs identified
           |
           +---- HF: Consensus-based integration across 3 datasets
                           |
-                          v
+                          
           Functional Enrichment Analysis
             -- Gene Ontology (GO) via Enrichr
             -- KEGG Pathway Analysis via Enrichr / Reactome
                           |
-                          v
+                          
           Protein-Protein Interaction (PPI) Network
             -- STRING database --> Hub Gene Identification
                           |
-                          v
+                          
           Visualization
             -- Heatmaps
             -- Volcano Plots
